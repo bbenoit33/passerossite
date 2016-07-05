@@ -12,73 +12,189 @@
             width: 100%;
         }
     </style>
+    <style>
+        $('.grid').isotope({
+          // options...
+          itemSelector: '.grid-item',
+          masonry: {
+            columnWidth: 200
+          }
+        });
+    </style>
   </head>
   <body>
-    ﻿<div class="row collapse header_row">
-        <div class="large-12 columns .main_header">
-            <header>
-                <div class="masthead">
-                    <div class="row collapse">
-                        <div class="small-12 collumns topMenu">
-                            <!--Title Bar-->
-                            <div class="title-bar" data-responsive-toggle="passeroMenu" data-hide-for="medium">
-                                <button class="menu-icon" type="button" data-toggle></button>
-                                <div class="title-bar-title">Menu</div>
-                            </div>
-                            <!--Navigation-->
-                            <ul class="menu align-right" id="passeroMenu">
-                                <li><a href="#">The Coffee</a></li>
-                                <li><a href="#">Wholesale</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Home</a></li>
+    ﻿<div class="row menuBar expanded">
+        <div class="small-12 collumns topMenu">
+            <!--Title Bar-->
+            <div class="title-bar" data-responsive-toggle="passeroMenu" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle></button>
+                <div class="title-bar-title">Menu</div>
+            </div>
+            <!--Navigation-->
+            <div class="row menu pmenu">
+                <div class="large-1 columns">
+            <ul class="menu align-left">
+                <li>
+                    <img src="assets/img/top_cup_logo.png" class="a">
+                </li>
+            </ul>
+                </div>
+                <div class="large-11 columns">
+            <ul class="menu align-right dropdown" id="passeroMenu" data-dropdown-menu>
+                <li>
+                    <a href="#">The Coffee</a>
+                </li>
+                <li>
+                    <a href="coffee.html">Wholesale</a>
+                    <!--<ul class="menu">
+                        <li>
+                            <a href="#">Latin American</a>
+                            <ul class="menu">
+                                <li>
+                                    <a href="#">Coasta Rica</a>
+                                </li>
+                                <li>
+                                    <a href="#">Colombian</a>
+                                </li>
+                                <li>
+                                    <a href="#">Guatemalan</a>
+                                </li>
+                                <li>
+                                    <a href="#">Honduras</a>
+                                </li>
+                                <li>
+                                    <a href="#">Peru</a>
+                                </li>
                             </ul>
-                        </div>
-                        <div class="row collapse">
-                            <div class="small-centered" id="logo">
-    
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" id="tag">
-                        <div class="large-10 large-centered columns" data-magellan>
-                            <h1 class="text-center">PASSERO'S COFFEE ROASTER</h1>
-                            <p class="text-center boldTag">Now serving three locations in Philadelphia</p>
-                            <p class="text-center"><a href="#passerosLoc"><img src="assets/img/navButton.png" class="navButton hvr-hang" /></a></p>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="orbit" role="region" aria-label="Passero's Coffee Roasters" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-                    <ul class="orbit-container">
-                        <li class="is-active orbit-slide">
-                            <div class="row mainSlide collapse" style="background-image: url(assets/img/beans.jpg)">
-                                <div class="small-12 columns">
-    
-                                </div>
-                            </div>
                         </li>
-                        <li class="orbit-slide">
-                            <div class="row mainSlide collapse" style="background-image: url(assets/img/franklin.jpg)">
-                                <div class="small-12 columns">
-    
-                                </div>
-                            </div>
-    
+                        <li>
+                            <a href="#">Asian & Pacific</a>
+                            <ul class="menu">
+                                <li>
+                                    <a href="#">Bali</a>
+                                </li>
+                                <li>
+                                    <a href="#">Papa New Guinea</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sumatra</a>
+                                </li>
+                            </ul>
                         </li>
-                        <li class="orbit-slide">
-                            <div class="row mainSlide collapse" style="background-image: url(assets/img/loom.jpg)">
-                                <div class="small-12 columns">
-    
-                                </div>
-                            </div>
+                        <li>
+                            <a href="#">African</a>
+                            <ul class="menu">
+                                <li>
+                                    <a href="#">Ethiopian</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kenya AA</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tanzania</a>
+                                </li>
+                            </ul>
                         </li>
-                    </ul>
-                </div>
-            </header>
+                        <li>
+                            <a href="#">Blends</a>
+                            <ul class="menu">
+                                <li>
+                                    <a href="#">House Blend</a>
+                                </li>
+                                <li>
+                                    <a href="#">Espresso</a>
+                                </li>
+                                <li>
+                                    <a href="#">Black Gold</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>-->
+                </li>
+                <li><a href="">About</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            </div>
+        </div>
         </div>
     </div>
-    <!--Intro Section-->
-    <div class="row content_row">
+    ﻿><div class="row collapse expanded">
+        <div class="small-12 columns">
+            <div class="row sliderSection collapse">
+                   
+            </div>
+    
+    
+    
+            <div class="orbit" role="region" aria-label="Passero's Coffee Roasters" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                <ul class="orbit-container">
+                    <li class="is-active orbit-slide">
+                        <div class="row mainSlide" style="background-image: url(assets/img/beans.jpg)">
+                            <div class="small-12 columns">
+                                <div class="row">
+                                    <div class="small-12 columns">
+                                        <div class="small-centered" id="logo">
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="small-12 columns" id="tag">
+                                        <h1 class="text-center">PASSERO'S COFFEE ROASTER</h1>
+                                        <p class="text-center boldTag">Now serving three locations in Philadelphia</p>
+                                        <p class="text-center"><a href="#passerosLoc"><img src="assets/img/navButton.png" class="navButton hvr-hang" /></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="orbit-slide">
+                        <div class="row mainSlide" style="background-image: url(assets/img/franklin.jpg)">
+                            <div class="small-12 columns">
+                                <div class="row">
+                                    <div class="small-12 columns">
+                                        <div class="small-centered" id="logo">
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="small-12 columns" id="tag">
+                                        <h1 class="text-center">PASSERO'S COFFEE ROASTER</h1>
+                                        <p class="text-center boldTag">Now serving three locations in Philadelphia</p>
+                                        <p class="text-center"><a href="#passerosLoc"><img src="assets/img/navButton.png" class="navButton hvr-hang" /></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </li>
+                    <li class="orbit-slide">
+                        <div class="row mainSlide" style="background-image: url(assets/img/loom.jpg)">
+                            <div class="small-12 columns">
+                                <div class="row">
+                                    <div class="small-12 columns">
+                                        <div class="small-centered" id="logo">
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="small-12 columns" id="tag">
+                                        <h1 class="text-center">PASSERO'S COFFEE ROASTER</h1>
+                                        <p class="text-center boldTag">Now serving three locations in Philadelphia</p>
+                                        <p class="text-center"><a href="#passerosLoc"><img src="assets/img/navButton.png" class="navButton hvr-hang" /></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+     <!--Intro Section-->
+    <div class="row content_row align-center expanded">
         <div class="small-12 large-8 columns large-centered intro_copy">
             <h2 class="text-center">Welcome to <span>PASSERO'S</span></h2>
             <p class="text-center">
@@ -94,25 +210,20 @@
     </div>
     
     ﻿<!--Roasts Section-->
-    <div class="row">
-        <div class="small-12 large-4 columns roasts r1 background_sizing ease">
-            <div class="roastContent text-center">
-                <img src="assets/img/badges/honduras.png" />
-            </div>
+    <div class="row roastSection expanded align-middle">
+        <div class="small-12 large-6 columns roastTag text-center">
+            <img src="assets/img/loombeans.jpg" alt="roaster">
         </div>
-        <div class="small-12 large-4 columns roasts r2 background_sizing ease">
-            <div class="roastContent text-center">
-                <img src="assets/img/badges/sumatra.png" />
-            </div>
-        </div>
-        <div class="small-12 large-4 columns roasts r3 background_sizing ease">
-            <div class="roastContent text-center">
-                <img src="assets/img/badges/tanzania.png" />
-            </div>
+        <div class="small-12 large-6 roastCopy columns">
+            <h1 class="text-left">Roasted With Love in Philly</h1>
+            <p>Rich, frappuccino half and half viennese ristretto body espresso seasonal. Milk at organic, sweet brewed cream, id eu single origin wings at crema. Variety, trifecta, americano, spoon, arabica, mug, grounds organic variety dripper et single origin.</p>
+            <p>Bar milk a single shot body roast americano whipped. Ut robusta chicory robust cream at frappuccino macchiato affogato. Redeye aftertaste, a plunger pot, french press cortado iced rich crema turkish percolator frappuccino.</p>
+            <p>Iced, galão, ristretto robust, a, aftertaste single shot whipped latte aromatic. Qui whipped, coffee sit cortado sweet irish. Wings seasonal trifecta filter crema siphon mazagran crema.</p>
+            <a class="button red cbutton" href="coffee.html">Check Out Our Beans</a>
         </div>
     </div>
     ﻿<!--Location Section-->
-    <div class="row collapse" id="passerosLoc">
+    <div class="row collapse expanded" id="passerosLoc">
         <div class="small-12 large-6 columns locationSection">
             <div class="row collapse">
                 <div class="small-6 columns loc store1">
